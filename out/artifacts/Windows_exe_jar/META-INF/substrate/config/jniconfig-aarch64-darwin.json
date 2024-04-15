@@ -1,0 +1,419 @@
+[
+  {
+    "name":"com.sun.webkit.BackForwardList",
+    "methods" : [
+      {"name":"notifyChanged","parameterTypes":[]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.BackForwardList$Entry",
+    "methods" : [
+      {"name":"<init>","parameterTypes":["long","long"]},
+      {"name":"notifyItemDestroyed","parameterTypes":[]},
+      {"name":"notifyItemChanged","parameterTypes":[]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.ContextMenu",
+    "methods" : [
+      {"name":"fwkCreateContextMenu","parameterTypes":[]},
+      {"name":"fwkAppendItem","parameterTypes":["com.sun.webkit.ContextMenuItem"]},
+      {"name":"fwkInsertItem","parameterTypes":["com.sun.webkit.ContextMenuItem","int"]},
+      {"name":"fwkShow","parameterTypes":["com.sun.webkit.WebPage","long","int","int"]},
+      {"name":"fwkGetItemCount","parameterTypes":[]}
+    ]
+  }
+,
+  {
+    "name":"com.sun.webkit.ContextMenuItem",
+    "methods" : [
+      {"name":"fwkCreateContextMenuItem","parameterTypes":[]},
+      {"name":"fwkSetType","parameterTypes":["int"]},
+      {"name":"fwkSetAction","parameterTypes":["int"]},
+      {"name":"fwkSetChecked","parameterTypes":["boolean"]},
+      {"name":"fwkSetEnabled","parameterTypes":["boolean"]},
+      {"name":"fwkSetTitle","parameterTypes":["java.lang.String"]},
+      {"name":"fwkSetSubmenu","parameterTypes":["com.sun.webkit.ContextMenu"]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.CursorManager",
+    "methods" : [
+      {"name":"getCursorManager","parameterTypes":[]},
+      {"name":"getPredefinedCursorID","parameterTypes":["int"]},
+      {"name":"getCustomCursorID","parameterTypes":["com.sun.webkit.graphics.WCImageFrame","int","int"]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.FileSystem",
+    "methods" : [
+      {"name":"fwkFileExists","parameterTypes":["java.lang.String"]},
+      {"name":"fwkOpenFile","parameterTypes":["java.lang.String","java.lang.String"]},
+      {"name":"fwkCloseFile","parameterTypes":["java.io.RandomAccessFile"]},
+      {"name":"fwkReadFromFile","parameterTypes":["java.io.RandomAccessFile","java.nio.ByteBuffer"]},
+      {"name":"fwkSeekFile","parameterTypes":["java.io.RandomAccessFile","long"]},
+      {"name":"fwkGetFileSize","parameterTypes":["java.lang.String"]},
+      {"name":"fwkGetFileMetadata","parameterTypes":["java.lang.String","long[]"]},
+      {"name":"fwkPathByAppendingComponent","parameterTypes":["java.lang.String","java.lang.String"]},
+      {"name":"fwkMakeAllDirectories","parameterTypes":["java.lang.String"]},
+      {"name":"fwkPathGetFileName","parameterTypes":["java.lang.String"]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.LocalizedStrings",
+    "methods" : [
+      {"name":"getLocalizedProperty","parameterTypes":["java.lang.String"]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.MainThread",
+    "methods" : [
+      {"name":"fwkScheduleDispatchFunctions","parameterTypes":[]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.WCPasteboard",
+    "methods" : [
+      {"name":"getPlainText","parameterTypes":[]},
+      {"name":"writePlainText","parameterTypes":["java.lang.String"]},
+      {"name":"writeSelection","parameterTypes":["boolean","java.lang.String","java.lang.String"]},
+      {"name":"writeImage","parameterTypes":["com.sun.webkit.graphics.WCImageFrame"]},
+      {"name":"writeUrl","parameterTypes":["java.lang.String","java.lang.String"]},
+      {"name":"getHtml","parameterTypes":[]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.PopupMenu",
+    "methods" : [
+      {"name":"fwkSetSelectedItem","parameterTypes":["int"]},
+      {"name":"fwkCreatePopupMenu","parameterTypes":["long"]},
+      {"name":"fwkAppendItem","parameterTypes":["java.lang.String","boolean","boolean","boolean","int","int","com.sun.webkit.graphics.WCFont"]},
+      {"name":"fwkShow","parameterTypes":["com.sun.webkit.WebPage","int","int","int"]},
+      {"name":"fwkHide","parameterTypes":[]},
+      {"name":"fwkDestroy","parameterTypes":[]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.SharedBuffer",
+    "methods" : [
+      {"name":"fwkCreate","parameterTypes":["long"]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.Timer",
+    "methods" : [
+      {"name":"fwkStopTimer","parameterTypes":[]},
+      {"name":"fwkSetFireTime","parameterTypes":["double"]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.Utilities",
+    "methods":[{"name":"fwkInvokeWithContext","parameterTypes":["java.lang.reflect.Method","java.lang.Object","java.lang.Object[]","java.security.AccessControlContext"] }]
+  },
+  {
+    "name":"com.sun.webkit.WCWidget",
+    "methods" : [
+      {"name":"fwkDestroy","parameterTypes":[]},
+      {"name":"fwkRequestFocus","parameterTypes":[]},
+      {"name":"fwkSetCursor","parameterTypes":["long"]},
+      {"name":"fwkSetVisible","parameterTypes":["boolean"]},
+      {"name":"fwkGetScreenRect","parameterTypes":["boolean"]},
+      {"name":"fwkGetScreenDepth","parameterTypes":[]},
+      {"name":"fwkSetBounds","parameterTypes":["int", "int", "int", "int"]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.WebPage",
+    "methods" : [
+      {"name":"getPage","parameterTypes":[]},
+      {"name":"fwkScroll","parameterTypes":["int", "int", "int", "int", "int", "int"]},
+      {"name":"fwkRepaint","parameterTypes":["int", "int", "int", "int"]},
+      {"name":"getScrollBarTheme","parameterTypes":[]},
+      {"name":"fwkStartDrag","parameterTypes":["java.lang.Object", "int", "int", "int", "int", "java.lang.String[]", "java.lang.Object[]", "boolean"]},
+      {"name":"setInputMethodState","parameterTypes":["boolean"]},
+      {"name":"getHostWindow","parameterTypes":[]},
+      {"name":"fwkGetWindowBounds","parameterTypes":[]},
+      {"name":"fwkSetWindowBounds","parameterTypes":["int", "int", "int", "int"]},
+      {"name":"fwkGetPageBounds","parameterTypes":[]},
+      {"name":"fwkSetCursor","parameterTypes":["long"]},
+      {"name":"fwkSetFocus","parameterTypes":["boolean"]},
+      {"name":"fwkTransferFocus","parameterTypes":["boolean"]},
+      {"name":"fwkSetTooltip","parameterTypes":["java.lang.String"]},
+      {"name":"fwkCreateWindow","parameterTypes":["boolean", "boolean", "boolean", "boolean"]},
+      {"name":"fwkCloseWindow","parameterTypes":[]},
+      {"name":"fwkShowWindow","parameterTypes":[]},
+      {"name":"fwkSetScrollbarsVisible","parameterTypes":["boolean"]},
+      {"name":"fwkSetStatusbarText","parameterTypes":["java.lang.String"]},
+      {"name":"fwkAlert","parameterTypes":["java.lang.String"]},
+      {"name":"fwkConfirm","parameterTypes":["java.lang.String"]},
+      {"name":"fwkPrompt","parameterTypes":["java.lang.String","java.lang.String"]},
+      {"name":"fwkAddMessageToConsole","parameterTypes":["java.lang.String", "int", "java.lang.String"]},
+      {"name":"fwkCanRunBeforeUnloadConfirmPanel","parameterTypes":[]},
+      {"name":"fwkRunBeforeUnloadConfirmPanel","parameterTypes":["java.lang.String"]},
+      {"name":"fwkScreenToWindow","parameterTypes":["com.sun.webkit.graphics.WCPoint"]},
+      {"name":"fwkWindowToScreen","parameterTypes":["com.sun.webkit.graphics.WCPoint"]},
+      {"name":"fwkChooseFile","parameterTypes":["java.lang.String", "boolean", "java.lang.String"]},
+      {"name":"getRenderTheme","parameterTypes":[]},
+      {"name":"fwkGetDefaultRenderTheme","parameterTypes":[]},
+      {"name":"fwkSetRequestURL","parameterTypes":["long", "int", "java.lang.String"]},
+      {"name":"fwkRemoveRequestURL","parameterTypes":["long", "int"]},
+      {"name":"fwkFireLoadEvent","parameterTypes":["long", "int", "java.lang.String", "java.lang.String", "double", "int"]},
+      {"name":"fwkFireResourceLoadEvent","parameterTypes":["long", "int", "int", "java.lang.String", "double", "int"]},
+      {"name":"fwkPermitNavigateAction","parameterTypes":["long", "java.lang.String"]},
+      {"name":"fwkPermitRedirectAction","parameterTypes":["long", "java.lang.String"]},
+      {"name":"fwkPermitAcceptResourceAction","parameterTypes":["long", "java.lang.String"]},
+      {"name":"fwkPermitSubmitDataAction","parameterTypes":["long", "java.lang.String","java.lang.String", "boolean"]},
+      {"name":"fwkPermitEnableScriptsAction","parameterTypes":["long", "java.lang.String"]},
+      {"name":"fwkPermitNewWindowAction","parameterTypes":["long", "java.lang.String"]},
+      {"name":"fwkDidClearWindowObject","parameterTypes":["long", "long"]},
+      {"name":"fwkFrameCreated","parameterTypes":["long"]},
+      {"name":"fwkFrameDestroyed","parameterTypes":["long"]},
+      {"name":"fwkRepaintAll","parameterTypes":[]},
+      {"name":"fwkSendInspectorMessageToFrontend","parameterTypes":["java.lang.String"]},
+      {"name":"fwkPrint","parameterTypes":[]},
+      {"name":"twkExecuteScript","parameterTypes":["long","java.lang.String"] }
+    ]
+  },
+  {
+    "name":"com.sun.webkit.dom.JSObject",
+    "fields":[{"name":"UNDEFINED"}],
+    "methods":[
+      {"name":"<init>","parameterTypes":["long","int"] },
+      {"name":"fwkMakeException","parameterTypes":["java.lang.Object"] }
+    ]
+  },
+  {
+    "name":"com.sun.webkit.dom.NodeImpl",
+    "methods" : [
+      {"name":"getImpl","parameterTypes":["long"]},
+      {"name":"getCachedImpl","parameterTypes":["long"]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.graphics.ScrollBarTheme",
+    "methods" : [
+      {"name":"getThickness","parameterTypes":[]},
+      {"name":"setThickness","parameterTypes":["int"]},
+      {"name":"createWidget","parameterTypes":["long", "int", "int", "int", "int", "int", "int"]},
+      {"name":"paint","parameterTypes":["com.sun.webkit.graphics.WCGraphicsContext", "com.sun.webkit.graphics.Ref", "int", "int", "int", "int"]},
+      {"name":"getScrollBarPartRect","parameterTypes":["long", "int", "int[]"]},
+      {"name":"getWidgetSize","parameterTypes":["com.sun.webkit.graphics.Ref"]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.graphics.Ref",
+    "methods" : [
+      {"name":"deref","parameterTypes":[]},
+      {"name":"ref","parameterTypes":[]},
+      {"name":"getID","parameterTypes":[]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.graphics.RenderTheme",
+    "methods" : [
+      {"name":"createWidget","parameterTypes":["long", "int", "int", "int", "int", "int", "java.nio.ByteBuffer"]},
+      {"name":"getRadioButtonSize","parameterTypes":[]},
+      {"name":"getSelectionColor","parameterTypes":["int"]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.graphics.WCFont",
+    "methods" : [
+      {"name":"deriveFont","parameterTypes":["float"]},
+      {"name":"getTextRuns","parameterTypes":["java.lang.String"]},
+      {"name":"getPlatformFont","parameterTypes":[]},
+      {"name":"getGlyphCodes","parameterTypes":["char[]"]},
+      {"name":"getXHeight","parameterTypes":[]},
+      {"name":"getGlyphWidth","parameterTypes":["int"]},
+      {"name":"getGlyphBoundingBox","parameterTypes":["int"]},
+      {"name":"getAscent","parameterTypes":[]},
+      {"name":"getDescent","parameterTypes":[]},
+      {"name":"getLineSpacing","parameterTypes":[]},
+      {"name":"getLineGap","parameterTypes":[]},
+      {"name":"getCapHeight","parameterTypes":[]},
+      {"name":"hasUniformLineMetrics","parameterTypes":[]},
+      {"name":"hashCode","parameterTypes":[]},
+      {"name":"equals","parameterTypes":["java.lang.Object"]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.graphics.WCFontCustomPlatformData",
+    "methods" : [
+      {"name":"createFont","parameterTypes":["int", "boolean", "boolean"]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.graphics.WCGraphicsManager",
+    "methods" : [
+      {"name":"createFrame","parameterTypes":["int","int","java.nio.ByteBuffer"]},
+      {"name":"createRTImage","parameterTypes":["int","int"]},
+      {"name":"createWCPath","parameterTypes":[]},
+      {"name":"createWCPath","parameterTypes":["com.sun.webkit.graphics.WCPath"]},
+      {"name":"createTransform","parameterTypes":["double","double","double","double","double","double"]},
+      {"name":"createBufferedContextRQ","parameterTypes":["com.sun.webkit.graphics.WCImage"]},
+      {"name":"getWCFont","parameterTypes":["java.lang.String","boolean","boolean","float"]},
+      {"name":"getImageDecoder","parameterTypes":[]},
+      {"name":"getSupportedMediaTypes","parameterTypes":[]},
+      {"name":"getGraphicsManager","parameterTypes":[]},
+      {"name":"fwkLoadFromResource","parameterTypes":["java.lang.String","long"]},
+      {"name":"fwkCreateFontCustomPlatformData","parameterTypes":["com.sun.webkit.SharedBuffer"]},
+      {"name":"fwkCreateMediaPlayer","parameterTypes":["long"]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.graphics.WCImage",
+    "methods" : [
+      {"name":"getPixelBuffer","parameterTypes":[]},
+      {"name":"drawPixelBuffer","parameterTypes":[]},
+      {"name":"toDataURL","parameterTypes":["java.lang.String"]},
+      {"name":"toData","parameterTypes":["java.lang.String"]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.graphics.WCImageDecoder",
+    "methods" : [
+      {"name":"addImageData","parameterTypes":["byte[]"]},
+      {"name":"getImageSize","parameterTypes":[]},
+      {"name":"getFrameCount","parameterTypes":[]},
+      {"name":"getFrame","parameterTypes":["int"]},
+      {"name":"getFrameDuration","parameterTypes":["int"]},
+      {"name":"getFrameSize","parameterTypes":["int"]},
+      {"name":"getFrameCompleteStatus","parameterTypes":["int"]},
+      {"name":"loadFromResource","parameterTypes":["java.lang.String"]},
+      {"name":"destroy","parameterTypes":[]},
+      {"name":"getFilenameExtension","parameterTypes":[]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.graphics.WCImageFrame",
+    "methods" : [
+      {"name":"getSize","parameterTypes":[]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.graphics.WCMediaPlayer",
+    "methods" : [
+      {"name":"fwkDispose","parameterTypes":[]},
+      {"name":"fwkLoad","parameterTypes":["java.lang.String","java.lang.String"]},
+      {"name":"fwkCancelLoad","parameterTypes":[]},
+      {"name":"fwkPrepareToPlay","parameterTypes":[]},
+      {"name":"fwkPlay","parameterTypes":[]},
+      {"name":"fwkPause","parameterTypes":[]},
+      {"name":"fwkGetCurrentTime","parameterTypes":[]},
+      {"name":"fwkSeek","parameterTypes":["float"]},
+      {"name":"fwkSetRate","parameterTypes":["float"]},
+      {"name":"fwkSetPreservesPitch","parameterTypes":["boolean"]},
+      {"name":"fwkSetVolume","parameterTypes":["float"]},
+      {"name":"fwkSetMute","parameterTypes":["boolean"]},
+      {"name":"fwkSetSize","parameterTypes":["int","int"]},
+      {"name":"fwkSetPreload","parameterTypes":["int"]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.graphics.WCPath",
+    "methods" : [
+      {"name":"contains","parameterTypes":["int","double","double"]},
+      {"name":"moveTo","parameterTypes":["double","double"]},
+      {"name":"addLineTo","parameterTypes":["double","double"]},
+      {"name":"addQuadCurveTo","parameterTypes":["double","double","double","double"]},
+      {"name":"addBezierCurveTo","parameterTypes":["double","double","double","double","double","double"]},
+      {"name":"addArcTo","parameterTypes":["double","double","double","double","double"]},
+      {"name":"addArc","parameterTypes":["double","double","double","double","double","boolean"]},
+      {"name":"addRect","parameterTypes":["double","double","double","double"]},
+      {"name":"addEllipse","parameterTypes":["double","double","double","double"]},
+      {"name":"strokeContains","parameterTypes":["double","double","double","double","int","int","double","double[]"]},
+      {"name":"transform","parameterTypes":["double","double","double","double","double","double"]},
+      {"name":"translate","parameterTypes":["double","double"]},
+      {"name":"getBounds","parameterTypes":[]},
+      {"name":"getPathIterator","parameterTypes":[]},
+      {"name":"closeSubpath","parameterTypes":[]},
+      {"name":"clear","parameterTypes":[]},
+      {"name":"isEmpty","parameterTypes":[]},
+      {"name":"addPath","parameterTypes":["com.sun.webkit.graphics.WCPath"]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.graphics.WCPathIterator",
+    "methods" : [
+      {"name":"isDone","parameterTypes":[]},
+      {"name":"next","parameterTypes":[]},
+      {"name":"currentSegment","parameterTypes":["double[]"]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.graphics.WCPoint",
+    "methods" : [
+      {"name":"getX","parameterTypes":[]},
+      {"name":"getY","parameterTypes":[]},
+      {"name":"<init>","parameterTypes":["float", "float"]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.graphics.WCRectangle",
+    "fields": [
+      {"name":"x"},
+      {"name":"y"},
+      {"name":"w"},
+      {"name":"h"}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.graphics.WCRenderQueue",
+    "methods" : [
+      {"name":"fwkFlush","parameterTypes":[]},
+      {"name":"fwkDisposeGraphics","parameterTypes":[]},
+      {"name":"fwkAddBuffer","parameterTypes":["java.nio.ByteBuffer"]},
+      {"name":"refString","parameterTypes":["java.lang.String"]},
+      {"name":"refIntArr","parameterTypes":["int[]"]},
+      {"name":"refFloatArr","parameterTypes":["float[]"]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.graphics.WCTextRun",
+    "methods" : [
+      {"name":"isLeftToRight","parameterTypes":[]},
+      {"name":"getGlyphPosAndAdvance","parameterTypes":["int"]},
+      {"name":"getCharOffset","parameterTypes":["int"]},
+      {"name":"getEnd","parameterTypes":[]},
+      {"name":"getGlyph","parameterTypes":["int"]},
+      {"name":"getGlyphCount","parameterTypes":[]},
+      {"name":"getStart","parameterTypes":[]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.network.CookieJar",
+    "methods" : [
+      {"name":"fwkPut","parameterTypes":["java.lang.String","java.lang.String"]},
+      {"name":"fwkGet","parameterTypes":["java.lang.String","boolean"]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.network.FormDataElement",
+    "methods" : [
+      {"name":"fwkCreateFromByteArray","parameterTypes":["byte[]"]},
+      {"name":"fwkCreateFromFile","parameterTypes":["java.lang.String"]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.network.NetworkContext",
+    "methods" : [
+      {"name":"fwkGetMaximumHTTPConnectionCountPerHost","parameterTypes":[]},
+      {"name":"fwkLoad","parameterTypes":["com.sun.webkit.WebPage", "boolean", "java.lang.String", "java.lang.String", "java.lang.String", "com.sun.webkit.network.FormDataElement[]", "long"]},
+      {"name":"canHandleURL","parameterTypes":["java.lang.String"]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.network.URLLoaderBase",
+    "methods" : [
+      {"name":"fwkCancel","parameterTypes":[]}
+    ]
+  },
+  {
+    "name":"com.sun.webkit.security.WCMessageDigest",
+    "methods" : [
+      {"name":"getInstance","parameterTypes":["java.lang.String"]},
+      {"name":"addBytes","parameterTypes":["java.nio.ByteBuffer"]},
+      {"name":"computeHash","parameterTypes":[]}
+    ]
+  }
+]

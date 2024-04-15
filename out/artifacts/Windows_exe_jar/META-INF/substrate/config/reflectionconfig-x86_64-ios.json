@@ -1,0 +1,11 @@
+[
+  {
+    "name":"javafx.scene.web.WebView"
+  }
+,
+  {
+    "name":"javafx.scene.web.JS2JavaBridge$JSEventHandler",
+    "methods":[{"name":"onAlertNotify","parameterTypes":["java.lang.String"] }]
+  }
+]
+

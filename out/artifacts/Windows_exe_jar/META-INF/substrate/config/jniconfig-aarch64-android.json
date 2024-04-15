@@ -1,0 +1,11 @@
+[
+    {
+        "name":"javafx.scene.web.WebView",
+        "methods" : [
+            {"name":"notifyLoadStarted","parameterTypes":[] },
+            {"name":"notifyLoadFailed","parameterTypes":[] },
+            {"name":"notifyJavaCall","parameterTypes":["java.lang.String"] },
+            {"name":"notifyLoadFinished","parameterTypes":["java.lang.String", "java.lang.String"] }
+        ]
+    }
+]

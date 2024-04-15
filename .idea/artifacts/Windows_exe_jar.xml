@@ -1,0 +1,63 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Windows_exe:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Windows_exe_jar</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="org.example.windows_exe.HelloApplication" />
+        <option name="description" value="" />
+        <option name="height" value="200" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="icons">
+          <JavaFxApplicationIcons>
+            <option name="windowsIcon" value="$PROJECT_DIR$/src/main/resources/Windows_exe.ico" />
+          </JavaFxApplicationIcons>
+        </option>
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="Http-Proxy Tools" />
+        <option name="vendor" value="example" />
+        <option name="version" value="1.0" />
+        <option name="width" value="300" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="module-output" name="Windows_exe" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/com/github/almasb/fxgl-gameplay/17.3/fxgl-gameplay-17.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/org/kordamp/ikonli/ikonli-javafx/12.3.1/ikonli-javafx-12.3.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/org/openjfx/javafx-fxml/21/javafx-fxml-21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/org/kordamp/bootstrapfx/bootstrapfx-core/0.4.0/bootstrapfx-core-0.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/org/kordamp/ikonli/ikonli-core/12.3.1/ikonli-core-12.3.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/com/github/almasb/fxgl/17.3/fxgl-17.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/com/github/almasb/fxgl-io/17.3/fxgl-io-17.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/org/openjfx/javafx-base/21/javafx-base-21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/org/openjfx/javafx-media/21/javafx-media-21-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/com/gluonhq/attach/audio/4.0.17/audio-4.0.17.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/net/synedra/validatorfx/0.4.0/validatorfx-0.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/com/github/almasb/fxgl-scene/17.3/fxgl-scene-17.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/org/openjfx/javafx-swing/21/javafx-swing-21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/com/github/almasb/fxgl-entity/17.3/fxgl-entity-17.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/org/controlsfx/controlsfx/11.1.2/controlsfx-11.1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/org/openjfx/javafx-web/21/javafx-web-21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/eu/hansolo/tilesfx/11.48/tilesfx-11.48.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/org/openjfx/javafx-web/21/javafx-web-21-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/com/dlsc/formsfx/formsfx-core/11.6.0/formsfx-core-11.6.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/org/openjfx/javafx-media/21/javafx-media-21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/com/gluonhq/attach/util/4.0.17/util-4.0.17.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/org/openjfx/javafx-controls/21/javafx-controls-21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/org/openjfx/javafx-graphics/21/javafx-graphics-21-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/com/gluonhq/attach/lifecycle/4.0.17/lifecycle-4.0.17.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/org/openjfx/javafx-base/21/javafx-base-21-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/com/github/almasb/fxgl-core/17.3/fxgl-core-17.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.8.10/kotlin-stdlib-common-1.8.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/org/openjfx/javafx-swing/21/javafx-swing-21-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/org/openjfx/javafx-fxml/21/javafx-fxml-21-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/org/openjfx/javafx-graphics/21/javafx-graphics-21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/com/gluonhq/attach/storage/4.0.17/storage-4.0.17.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/org/openjfx/javafx-controls/21/javafx-controls-21-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/apache-maven-3.9.6/repository/org/jetbrains/kotlin/kotlin-stdlib/1.8.10/kotlin-stdlib-1.8.10.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
